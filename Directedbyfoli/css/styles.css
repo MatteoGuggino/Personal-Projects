@@ -1,0 +1,333 @@
+/*index.html*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+main{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+main h1{
+	font-size: 36px;
+	font-weight: 600;
+
+}
+main p{
+	color:#777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+header {
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/banner.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+nav img {
+	width: 250px;
+}
+
+nav {
+	display: flex;
+
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navlinks {
+	flex: 1;
+	text-align: right;
+
+}
+
+.navlinks ul li {
+	list-style-type: none;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+
+.navlinks ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+
+}
+
+.navlinks ul li::after {
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: white;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.navlinks ul li:hover::after{
+	width: 100%;
+
+}
+
+.textbox {
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/*The -50% transform basically means, in simple words, "move this element left and upwards by 50% of the computed dimension along the axis". -50% along the x-axis means "move me leftwards by half my computed width", likewise for that in the y-axis.*/
+	text-align: center;
+}
+
+.textbox h1 {
+	font-size: 62px;
+}
+
+.textbox p {
+	margin: 10px 0px 40px;
+	font-size: 20px;
+}
+
+#button {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+#button:hover{
+	color: #050C1E;
+	border: 1px solid #050C1E;
+	background: #FFFFFF;
+	transition: 1s;
+}
+
+#icon{
+	display: none;
+}
+	
+.kolom{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5%;
+}
+.services-kol{
+	flex-basis: 30%;
+	background: #ebf3ff;
+	border-radius: 10px ;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+}
+h3{
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+}
+.contact{
+	margin: 100px auto;
+	padding: 100px 0;
+	width: 80%;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(31, 31, 31, 0.7)), url(../img/contactme.png);
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+	text-align: center;
+}
+.contact h1{
+	color: white;
+	margin-bottom: 40px;
+	padding: 0;
+}
+footer{
+	background-color: #ebf3ff;
+	width: 100%;
+	text-align: center;
+	padding: 30px 0px 0px 0px;
+}
+footer h4{
+	
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+footer p{
+	color:#777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+.end{
+	color: #777;
+	
+	background-color: #121625;
+}
+.icons .fa-instagram, .fa-youtube, .fa-twitter{
+	font-size: 25px;
+	color:#23007a;
+	margin: 0 13px;
+	padding: 18px 0;
+}
+
+/*about.html*/
+.subheader{
+	height: 40vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../img/background123.png);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+.subheader h1{
+	margin-top:100px;
+}
+.about{
+	width: 80%;
+	margin: auto;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.about-kol{
+	flex-basis: 48%;
+	padding: 30px 2px;
+
+}
+.about-kol img{
+	border-radius: 10px ;
+}
+.about-kol h1{
+	padding-top: 0;
+
+}
+.about-kol p{
+	padding: 15px 0 25px;
+}
+.blackbutton{
+	display: inline-block;
+	text-decoration: none;
+	color: rgb(34, 8, 94);
+	border: 2px solid rgb(34, 8, 94);
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+/*films.html*/
+.films{
+	width: 80%;
+	margin: auto;
+	padding: 60px 0;
+}
+.films-left{
+	flex-basis: 65%;
+}
+.films-left img{
+	width: 100%;
+}
+.films-left h2{
+	color: #222;
+	font-weight: 600;
+	margin: 30px 9;
+}
+/*contact.html*/
+.locatie{
+	width: 80%;
+	margin: auto;
+	padding: 80px 0;
+}
+.locatie iframe{
+	width: 100%;
+}
+.contactme{
+	width: 80%;
+	margin: auto;
+}
+.contact-kol{
+	flex-basis: 48%;
+	margin-bottom: 30px;
+}
+.contact-kol div{
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+#iconen{
+	font-size: 28px;
+	color: #23007a;
+	margin: 10px;
+	margin-right: 30px;
+}
+.contact-kol div p{
+	padding: 0;
+
+}
+.contact-kol div h5{
+	font-size: 17px;
+	margin-bottom: 5px;
+	color: #23007a;
+	font-weight: 400;
+}
+.contact-kol input, .contact-kol textarea{
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 17px;
+	outline: none;
+	border: 2px solid #23007a;
+box-sizing: border-box;
+}
+/*resposnive*/
+
+@media(max-width:700px) {
+	.textbox h1 {
+		font-size: 20px;
+	}
+
+	.navlinks ul li {
+		display: block;
+	}
+
+	.navlinks {
+		position: fixed;
+		background: #121625;
+		height: 100vh;
+		width: 200px;
+		top: 0;
+		right: -200px;
+		text-align: left;
+		z-index: 2;
+		transition: 1s;
+	}
+	nav #icon{
+		display: block;
+		color: white;
+		margin: 10px;
+		font-size: 22px;
+	}
+	.navlinks ul{
+		padding: 30px;
+	}
+	.kolom{
+		flex-direction: column;
+	}
+	.contact h1{
+		font-size: 24px;
+
+	}
+}

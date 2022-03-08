@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/e11c47986f.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<title>Directed by Foli.</title>
+</head>
+
+
+<body>
+
+	<section class="subheader">
+		<nav>
+			<a href="index.html"><img src="img/logo horizontal.png" alt=""></a>
+			<div class="navlinks" id="navLinks">
+				<i class="fas fa-times" id="icon" onclick="closeMenu()"></i>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About me</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="films.html">Films</a></li>
+					<li><a href="contact.html">Contact & Info</a></li>
+				</ul>
+			</div>
+			<i class="fas fa-bars" id="icon" onclick="openMenu()"></i>
+		</nav>
+		<h1>Films</h1>
+	</section>
+	<main>
+		<div class="kolom">
+			<div class="services-kol">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/IZ-GAI1WKQY?controls=1"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+			<div class="services-kol">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/7WPF70B1vYg?controls=1"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+
+			</div>
+		</div>
+		<div class="kolom">
+			<div class="services-kol">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/cEIqOhJo8sI?controls=1"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+
+			<div class="services-kol">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/olycqM2dHbI?controls=1"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+
+			</div>
+		</div>
+		<div class="kolom">
+			<div class="services-kol">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Jm4wZrYYZu4?controls=1"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+
+			<div class="services-kol">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/bcVa-SFL7wc?controls=1"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+
+			</div>
+		</div>
+	</main>
+	<footer>
+		
+		<p>I’m a video content creator, photographer and licensed drone pilot from Belgium. <br> Im am specialised in
+			making
+			videoclips, real estate pictures or flying around and taking awesome drone shots. Feel free to follow me and
+			my journey.</p>
+		<div class="icons">
+			<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.youtube.com/channel/UCkk4MS9qgVEqKq6r0cLWYmw/videos"><i class="fab fa-youtube"></i></a>
+			<a href=""><i class="fab fa-twitter"></i></a>
+		</div>
+		<div class="end">
+			<small>	&copy; 2021 Directed by Foli. All Rights Reserved</small>
+		</div>
+	</footer>
+
+	<!--Javascript menu code-->
+	<script>
+		var navlinks = document.getElementById("navLinks")
+
+		function openMenu() {
+			navLinks.style.right = "0";
+		}
+
+		function closeMenu() {
+			navLinks.style.right = "-200px";
+		}
+	</script>
+</body>
+
+</html>

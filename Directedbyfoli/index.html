@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/e11c47986f.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="vendor/script.js">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<title>Directed by Foli.</title>
+</head>
+<body>
+<!--Website created by Matteo Guggino-->
+	<header>
+		<nav>
+			<a href="index.html"><img src="img/logo horizontal.png" alt=""></a>
+			<div class="navlinks" id="navLinks">
+				<i class="fas fa-times" id="icon" onclick="closeMenu()"></i>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About me</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="films.html">Films</a></li>
+					<li><a href="contact.html">Contact & Info</a></li>
+				</ul>
+			</div>
+			<i class="fas fa-bars" id="icon" onclick="openMenu()"></i>
+		</nav>
+		<div class="textbox">
+			<h1>Directed by Foli.</h1>
+			<p>Your vision, my visuals </p>
+			<a href="films.html" id="button">Discover my work <i class="fas fa-chevron-circle-right"></i></a>
+
+		</div>
+	</header>
+	<main>
+		<h1>Services I Offer</h1>
+		<p>I want to offer a wide amount of services, from music videos to aftermovies. Here are a couple listed but
+			don’t
+			hesitate to contact me if you have other awesome assignments.</p>
+
+		<div class="kolom">
+			<div class="services-kol">
+				<h3>Videoclips</h3>
+				<p>Coeco et ad veris locus an. Fide du at ante ex soli. Ii inge solo ii ea ei illi. Inesse iterum ii ob
+					obvium primum. Sufficiat scientiam objicient perfectis si ex ea cujuspiam geometras ii. Imperfecta
+					explicetur intellectu ex ob perspicuum desiderant percipitur. To negari audire unitas at ii.</p>
+			</div>
+			<div class="services-kol">
+				<h3>Drone Shots</h3>
+				<p>Coeco et ad veris locus an. Fide du at ante ex soli. Ii inge solo ii ea ei illi. Inesse iterum ii ob
+					obvium primum. Sufficiat scientiam objicient perfectis si ex ea cujuspiam geometras ii. Imperfecta
+					explicetur intellectu ex ob perspicuum desiderant percipitur. To negari audire unitas at ii.</p>
+			</div>
+			<div class="services-kol">
+				<h3>Aftermovies</h3>
+				<p>Coeco et ad veris locus an. Fide du at ante ex soli. Ii inge solo ii ea ei illi. Inesse iterum ii ob
+					obvium primum. Sufficiat scientiam objicient perfectis si ex ea cujuspiam geometras ii. Imperfecta
+					explicetur intellectu ex ob perspicuum desiderant percipitur. To negari audire unitas at ii.</p>
+			</div>
+		</div>
+		<div class="contact">
+			<h1>Contact me!</h1>
+			<a href="contact.html" id="button">Contact me!</a>
+		</div>
+	</main>
+	<footer>
+		
+		<p>I’m a video content creator, photographer and licensed drone pilot from Belgium. <br> Im am specialised in
+			making
+			videoclips, real estate pictures or flying around and taking awesome drone shots. Feel free to follow me and
+			my journey.</p>
+		<div class="icons">
+			<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.youtube.com/channel/UCkk4MS9qgVEqKq6r0cLWYmw/videos"><i class="fab fa-youtube"></i></a>
+			<a href=""><i class="fab fa-twitter"></i></a>
+		</div>
+		<div class="end">
+			<small>	&copy; 2021 Directed by Foli. All Rights Reserved</small>
+		</div>
+	</footer>
+
+	<!--Javascript menu code-->
+	<script>
+		var navlinks = document.getElementById("navLinks")
+
+		function openMenu() {
+			navLinks.style.right = "0";
+		}
+
+		function closeMenu() {
+			navLinks.style.right = "-200px";
+		}
+	</script>
+</body>
+
+</html>
